@@ -5,7 +5,7 @@ if (! $user || ! $pass)
 {
 header('HTTP/1.1 401 Unauthorized'); 
 header('WWW-Authenticate: Basic realm="Basic Authentication Sample"');
-echo " 请输入用户名和密码 ";    
+echo " pleas put your accout and password ";    
 exit; 
 } 
 ?>
